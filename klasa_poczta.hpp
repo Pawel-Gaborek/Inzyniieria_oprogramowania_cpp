@@ -24,8 +24,9 @@ private:
     
 protected:
 public:
-    
-    
+    //klasa_poczta();
+    //~klasa_poczta();
+    void poczta_menu();
 };
 
 #endif 

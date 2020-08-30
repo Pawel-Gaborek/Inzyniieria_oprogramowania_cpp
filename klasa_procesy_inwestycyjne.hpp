@@ -24,8 +24,9 @@ private:
     
 protected:
 public:
-    
-    
+    klasa_procesy_inwestycyjne();
+    ~klasa_procesy_inwestycyjne();
+    void procesy_menu();
 };
 
 #endif 

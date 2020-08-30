@@ -6,26 +6,15 @@
 //  Copyright © 2020 Pawel Gaborek. All rights reserved.
 //
 
-#ifndef klasa_umowy_hpp
-#define klasa_umowy_hpp
-
-
 //ponizej zalaczam dyrektywy
 #include <iostream>
 
 using namespace std;
 
-class klasa_umowy
+string haslo_(string string_temp)
 {
-    
-private:
-
-    
-protected:
-public:
-    void umowy_menu();
-    
-    
+    int dlugosc_do_spacji;
+    dlugosc_do_spacji = string_temp.find(' ');
+    string_temp.erase(0, dlugosc_do_spacji+1);
+    return string_temp;
 };
-
-#endif 

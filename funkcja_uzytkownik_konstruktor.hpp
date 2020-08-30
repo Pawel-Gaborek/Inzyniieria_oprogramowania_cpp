@@ -6,26 +6,13 @@
 //  Copyright © 2020 Pawel Gaborek. All rights reserved.
 //
 
-#ifndef klasa_umowy_hpp
-#define klasa_umowy_hpp
-
-
 //ponizej zalaczam dyrektywy
 #include <iostream>
 
-using namespace std;
+#include "klasa_uzytkownik.hpp"
 
-class klasa_umowy
+klasa_uzytkownik::klasa_uzytkownik(string login_, string haslo_)
 {
-    
-private:
-
-    
-protected:
-public:
-    void umowy_menu();
-    
-    
+    this -> login = login_;
+    this -> haslo = haslo_;
 };
-
-#endif 

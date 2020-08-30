@@ -1,1 +1,1 @@
-# Inzynieria_oprogramowania_cpp
+# Inzyniieria_oprogramowania_cpp

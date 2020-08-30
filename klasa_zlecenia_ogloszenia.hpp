@@ -22,8 +22,9 @@ private:
     
 protected:
 public:
-    
-    
+    //klasa_zlecenia_ogloszenia();
+    //~klasa_zlecenia_ogloszenia();
+    void ogloszenia_menu();
 };
 
 #endif 

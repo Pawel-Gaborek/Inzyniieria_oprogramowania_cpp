@@ -23,7 +23,9 @@ private:
 protected:
 public:
     
-    
+    //klasa_rachunki();
+    //~klasa_rachunki();
+    void rachunki_menu();
 };
 
 #endif 

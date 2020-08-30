@@ -18,7 +18,8 @@ class klasa_uzytkownik
 {
     
 private:
-    int ID_Uzytkownik;
+    string login;
+    string haslo;
     string imie;
     string nazwisko;
     string ulica;
@@ -37,10 +38,12 @@ private:
     
 protected:
 public:
-    void dodaj_uzutkownia();
-    void usun_uzytkownika();
-    void koryguj_dane();
     
+    klasa_uzytkownik(string login_, string haslo);
+    klasa_uzytkownik();
+    ~klasa_uzytkownik ();
+    string zwroc_login();
+    string zwroc_haslo();
 };
 
 

@@ -31,11 +31,12 @@ private:
     
 protected:
 public:
-    
+    //klasa_kalendarz();
+    //~klasa_kalendarz();
     void dodaj_wydarzenie();
     void usun_wydarzenie();
     void koryguj_wydarzenie();
-    
+    void kalendarz_menu();
 };
 
 #endif 

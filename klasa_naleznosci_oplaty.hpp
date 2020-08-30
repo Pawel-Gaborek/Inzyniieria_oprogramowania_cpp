@@ -23,7 +23,9 @@ private:
     
 protected:
 public:
-    
+    //klasa_naleznosci_oplaty();
+    //~klasa_naleznosci_oplaty();
+    void oplaty_menu();
     
 };
 

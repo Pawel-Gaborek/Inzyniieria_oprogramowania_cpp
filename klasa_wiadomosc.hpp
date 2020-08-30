@@ -30,7 +30,7 @@ protected:
 public:
     void utworz_wiadomosc;
     void usun_wiadomosc;
-    void edytuuj wiadkosc;
+    void edytuj_wiadomosc;
     
 };
 

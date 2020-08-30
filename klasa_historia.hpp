@@ -22,7 +22,9 @@ private:
     
 protected:
 public:
-    
+    //klasa_historia();
+    //~klasa_historia();
+    void historia_menu();
     
 };
 
