@@ -36,6 +36,9 @@ public:
     void dodaj_uzytkownika(klasa_uzytkownicy *uzytkownicy);
     void usun_uzytkownika(klasa_uzytkownicy *uzytkownicy);
     void koryguj_dane(klasa_uzytkownicy *uzytkownicy);
+    int ilosc_kontenerow();
+    int size_vector();
+    vector<klasa_uzytkownik*> zwroc_tablice();
 };
 
 

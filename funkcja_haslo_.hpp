@@ -16,5 +16,6 @@ string haslo_(string string_temp)
     int dlugosc_do_spacji;
     dlugosc_do_spacji = string_temp.find(' ');
     string_temp.erase(0, dlugosc_do_spacji+1);
+    string_temp.erase(string_temp.find(' '), string_temp.length());
     return string_temp;
 };

@@ -23,6 +23,7 @@ private:
     string imie;
     string nazwisko;
     string ulica;
+    int numer_id;
     int numer_domu;
     int numer_lokalu;
     int kod_pocztowy;
@@ -39,11 +40,12 @@ private:
 protected:
 public:
     
-    klasa_uzytkownik(string login_, string haslo);
+    klasa_uzytkownik(string login_, string haslo, int numer_id_);
     klasa_uzytkownik();
     ~klasa_uzytkownik ();
     string zwroc_login();
     string zwroc_haslo();
+    int zwroc_id();
 };
 
 

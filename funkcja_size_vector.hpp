@@ -8,12 +8,13 @@
 
 //ponizej zalaczam dyrektywy
 #include <iostream>
+#include <string>
 
+#include "klasa_uzytkownicy.hpp"
 #include "klasa_uzytkownik.hpp"
 
-klasa_uzytkownik::klasa_uzytkownik(string login_, string haslo_, int numer_id_)
+using namespace std;
+int klasa_uzytkownicy::size_vector()
 {
-    this -> login = login_;
-    this -> haslo = haslo_;
-    this -> numer_id = numer_id_;
+    return uzytkownicy.size();
 };

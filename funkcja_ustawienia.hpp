@@ -17,6 +17,11 @@ using namespace std;
 
 void klasa_ustawienia::ustawienia_menu()
 {
+    bool petla_exit_ = false;
+    int wybor_;
+    
+    while (petla_exit_ != true)
+    {
         system("clear");
         cout << "//--------------------<<<<<<<<<>>>>>>>>>--------------------\\" << endl;
         cout << "//--------------------<<<<<<<<<>>>>>>>>>--------------------\\" << endl;
@@ -24,5 +29,32 @@ void klasa_ustawienia::ustawienia_menu()
         cout << "//--------------------PANEL   USTAWIENIA--------------------\\" << endl;
         cout << "//--------------------<<<<<<<<<>>>>>>>>>--------------------\\" << endl;
         cout << "//--------------------<<<<<<<<<>>>>>>>>>--------------------\\" << endl;
-    
+        cout << "\n\n\n1 - Ustawienie powiadomien SMS" << endl;
+        cout << "2 - Ustawienie powiadomien MAILOWYCH" << endl;
+        cout << "3 - Pozostale powiadomienia" << endl;
+        cout << "4 - Cofnij" << endl;
+        
+        cin >> wybor_;
+        
+        switch (wybor_)
+        {
+            case 1:
+            {
+                break;
+            }
+            case 2:
+            {
+                break;
+            }
+            case 3:
+            {
+                petla_exit_ = true;
+                break;
+            }
+            default:
+            {
+                break;
+            }
+        }
+    }
 };

@@ -30,8 +30,28 @@ void klasa_twoje_dane::dane_menu()
         cout << "//--------------------<<<<<<<<<>>>>>>>>>--------------------\\" << endl;
         cout << "//--------------------<<<<<<<<<>>>>>>>>>--------------------\\" << endl;
         cout << "\n\n\n1 - Twoje dane" << endl;
-        cout << "2 - " << endl;
-        cout << "" << endl;
+        cout << "2 - Edytuj dane" << endl;
+        cout << "3 - Cofnij" << endl;
+        cin >> wybor_;
+        switch (wybor_)
+        {
+            case 1:
+            {
+                break;
+            }
+            case 2:
+            {
+                break;
+            }
+            case 3:
+            {
+                petla_exit_ = true;
+                break;
+            }
+            default:
+            {
+                break;
+            }
+        }
     }
-    
 };

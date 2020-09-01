@@ -72,7 +72,8 @@ void klasa_uzytkownicy::uzytkownicy_menu(klasa_uzytkownicy *uzytkownicy_wsk)
         cout << "2 - Zaloz konto" << endl;
         cout << "3 - Zamknij program" << endl;
         
-        wybor = zwroc_wartosc_wyboru(1, 3);
+        cin >> wybor;
+        //wybor = zwroc_wartosc_wyboru(1, 3);
         //if(!isdigit(wybor))
         //{
         //    cin >> wybor;
@@ -108,19 +109,24 @@ void klasa_uzytkownicy::uzytkownicy_menu(klasa_uzytkownicy *uzytkownicy_wsk)
                     cout << "Podano bledny login badz haslo" << endl;
                     cout << "Sproobuj ponownie, badz zaloz konto" << endl;
                     exit = 0;
+                    sleep(2);
                 }
                 break;
                 
             case 2:
+            {
                 dodaj_uzytkownika(uzytkownicy_wsk);
                 break;
-            
+            }
             case 3:
+            {
                 exit_ = true;
                 break;
-                
+            }
             default:
+            {
                 break;
+            }
         }
     }
     if (exit_ == true)
