@@ -21,6 +21,9 @@
 #include "funkcje_zwrotu_argumentow.hpp"
 #include "funkcja_dodaj_uzytkownika.hpp"
 
+//zalaczam pozostale funkcje
+#include "inne_zwoc_wrtosc_wyboru.hpp"
+
 void klasa_uzytkownicy::uzytkownicy_menu(klasa_uzytkownicy *uzytkownicy_wsk)
 {
     int exit = 0;
@@ -69,7 +72,11 @@ void klasa_uzytkownicy::uzytkownicy_menu(klasa_uzytkownicy *uzytkownicy_wsk)
         cout << "2 - Zaloz konto" << endl;
         cout << "3 - Zamknij program" << endl;
         
-        cin >> wybor;
+        wybor = zwroc_wartosc_wyboru(1, 3);
+        //if(!isdigit(wybor))
+        //{
+        //    cin >> wybor;
+        //}
         system("clear");
     
         switch (wybor)

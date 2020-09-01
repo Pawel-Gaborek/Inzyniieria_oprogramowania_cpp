@@ -13,6 +13,8 @@
 
 //ponizej zalaczam dyrektywy
 #include <iostream>
+#include "klasa_uzytkownicy.hpp"
+#include "klasa_uzytkownik.hpp"
 
 using namespace std;
 
@@ -24,8 +26,8 @@ private:
     
 protected:
 public:
-    klasa_procesy_inwestycyjne();
-    ~klasa_procesy_inwestycyjne();
+    //klasa_procesy_inwestycyjne();
+    //~klasa_procesy_inwestycyjne();
     void procesy_menu();
 };
 

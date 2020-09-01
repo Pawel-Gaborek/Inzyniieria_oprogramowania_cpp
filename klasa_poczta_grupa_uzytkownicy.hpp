@@ -16,6 +16,7 @@
 
 //ponizej zalaczam
 #include "klasa_uzytkownik.hpp"
+#include "klasa_uzytkownicy.hpp"
 
 using namespace std;
 

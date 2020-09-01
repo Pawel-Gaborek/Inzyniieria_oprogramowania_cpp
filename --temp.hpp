@@ -6,28 +6,14 @@
 //  Copyright © 2020 Pawel Gaborek. All rights reserved.
 //
 
-#ifndef klasa_umowy_hpp
-#define klasa_umowy_hpp
-
-
 //ponizej zalaczam dyrektywy
 #include <iostream>
-#include "klasa_uzytkownik.hpp"
-#include "klasa_uzytkownicy.hpp"
+#include "klasa_procesy_inwestycyjne.hpp"
 
 using namespace std;
 
-class klasa_umowy
+void procesy_menu()
 {
-    
-private:
-
-    
-protected:
-public:
-    void umowy_menu();
     
     
 };
-
-#endif 

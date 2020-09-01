@@ -14,6 +14,7 @@
 #include <vector>
 
 //ponizeej zalaczam klasy
+#include "klasa_uzytkownicy.hpp"
 #include "klasa_uzytkownik.hpp"
 #include "funkcja_uzytkownicy_wczytaj_uzytkownika.hpp"
 

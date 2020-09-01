@@ -14,6 +14,9 @@
 
 //ponizej zalaczam pliki klas
 #include "klasa_uzytkownik.hpp"
+#include "klasa_uzytkownicy.hpp"
+
+
 using namespace std;
 
 class klasa_wiadomosc

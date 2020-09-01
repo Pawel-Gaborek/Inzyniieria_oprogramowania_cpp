@@ -25,6 +25,8 @@
 #include "klasa_naleznosci_oplaty.hpp"
 #include "klasa_umowy.hpp"
 #include "klasa_kalendarz.hpp"
+#include "klasa_twoje_dane.hpp"
+#include "klasa_ustawienia.hpp"
 
 
 //ponizej zalaczam pliki funkcji
@@ -39,6 +41,12 @@
 #include "funkcja_ogloszenia_menu.hpp"
 #include "funkcja_historia_menu.hpp"
 #include "funkcja_poczta_menu.hpp"
+#include "funkcja_ustawienia.hpp"
+//#include "funkcja_dane_menu.hpp"
+#include "funkcja_dane.hpp"
+
+
+
 
 using namespace std;
 int main(int argc, const char * argv[])
@@ -87,7 +95,9 @@ int main(int argc, const char * argv[])
             cout << "6 - Naleznosci / oplaty" << endl;
             cout << "7 - Umowy" << endl;
             cout << "8 - Kalendarz" << endl;
-            cout << "9 - Wyloguj / zamknij program" << endl;
+            cout << "9 - Twoje dane" << endl;
+            cout << "10 - Ustawienia" << endl;
+            cout << "11 - Wyloguj / zamknij program" << endl;
             cin >> wybor;
             system("clear");
             
@@ -95,17 +105,18 @@ int main(int argc, const char * argv[])
             {
                 case 1:
                 {
-                    klasa_umowy *umowy = new klasa_umowy();
-                    umowy -> umowy_menu();
+                    klasa_procesy_inwestycyjne* procesy = new klasa_procesy_inwestycyjne();
+                    procesy -> procesy_menu();
                     break;
                 }
+                    
                 case 2:
                 {
                     klasa_poczta *poczta = new klasa_poczta();
                     poczta -> poczta_menu();
                     break;
                 }
-                    
+                                   
                 case 3:
                 {
                     klasa_historia *historia = new klasa_historia();
@@ -119,6 +130,7 @@ int main(int argc, const char * argv[])
                     ogloszenia -> ogloszenia_menu();
                     break;
                 }
+                    
                 case 5:
                 {
                     klasa_rachunki *rachunki = new klasa_rachunki;
@@ -147,6 +159,18 @@ int main(int argc, const char * argv[])
                 }
                 case 9:
                 {
+                    klasa_twoje_dane* twoje_dane = new klasa_twoje_dane();
+                    twoje_dane -> dane_menu();
+                    break;
+                }
+                case 10:
+                {
+                    klasa_ustawienia* ustawienia = new klasa_ustawienia();
+                    ustawienia -> ustawienia_menu();
+                    break;
+                }
+                case 11:
+                {
                     exit_ = true;
                 }
                 default:
@@ -154,6 +178,7 @@ int main(int argc, const char * argv[])
                     break;
                 }
                     
+                  
             }
         }
         if (exit_ == true)

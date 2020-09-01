@@ -14,6 +14,8 @@
 
 //ponizej zalaczam klasy
 #include "klasa_poczta_grupa_uzytkownicy.hpp"
+#include "klasa_uzytkownik.hpp"
+#include "klasa_uzytkownicy.hpp"
 
 using namespace std;
 

@@ -6,29 +6,24 @@
 //  Copyright © 2020 Pawel Gaborek. All rights reserved.
 //
 
-
-#ifndef klasa_poczta_hpp
-#define klasa_poczta_hpp
-
-
+#ifndef klasa_twoje_dane_hpp
+#define klasa_twoje_dane_hpp
 //ponizej zalaczam dyrektywy
 #include <iostream>
-#include "klasa_uzytkownicy.hpp"
+#include "klasa_procesy_inwestycyjne.hpp"
 #include "klasa_uzytkownik.hpp"
+#include "klasa_uzytkownicy.hpp"
 
 using namespace std;
 
-class klasa_poczta
+class klasa_twoje_dane
 {
-    
 private:
-
-    
 protected:
 public:
-    //klasa_poczta();
-    //~klasa_poczta();
-    void poczta_menu();
+    //klasa_twoje_dane();
+    //~klasa_twoje_dane();
+    //void twoje_dane_menu();
+    void dane_menu();
 };
-
-#endif 
+#endif
